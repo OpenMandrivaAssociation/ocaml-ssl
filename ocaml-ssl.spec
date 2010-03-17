@@ -1,6 +1,6 @@
 Name:           ocaml-ssl
-Version:        0.4.3
-Release:        %mkrel 3
+Version:        0.4.4
+Release:        %mkrel 1
 Summary:        SSL bindings for OCaml
 
 Group:          Development/Other
