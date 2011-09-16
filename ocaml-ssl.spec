@@ -1,12 +1,12 @@
 Name:           ocaml-ssl
-Version:        0.4.4
+Version:        0.4.5
 Release:        3
 Summary:        SSL bindings for OCaml
 
 Group:          Development/Other
 License:        LGPLv2+ with exceptions
 URL:            http://savonet.sourceforge.net/wiki/Savonet
-Source0:        http://downloads.sourceforge.net/savonet/ocaml-ssl-%{version}.tar.gz
+Source:        http://sourceforge.net/projects/savonet/files/ocaml-ssl/%{version}/ocaml-ssl-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
 BuildRequires:  ocaml >= 3.10.1
