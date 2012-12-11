@@ -67,3 +67,35 @@ rm -rf %{buildroot}
 %{_docdir}/%{name}-devel-%{version}/
 
 
+
+
+%changelog
+* Fri Sep 16 2011 Alexandre Lissy <alissy@mandriva.com> 0.4.5-3
++ Revision: 700030
+- Updating sources to latest 0.4.5
+- Release bump, rebuilding against latest ocaml
+
+* Fri Apr 16 2010 Funda Wang <fwang@mandriva.org> 0.4.4-2mdv2011.0
++ Revision: 535264
+- rebuild for openssl
+
+* Wed Mar 17 2010 Florent Monnier <blue_prawn@mandriva.org> 0.4.4-1mdv2010.1
++ Revision: 522812
+- update to new version 0.4.4
+
+* Mon Jan 25 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.4.3-3mdv2010.1
++ Revision: 496363
+- rebuild
+
+* Sat Jun 27 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.4.3-2mdv2010.0
++ Revision: 389925
+- rebuild
+
+* Tue Feb 03 2009 Florent Monnier <blue_prawn@mandriva.org> 0.4.3-1mdv2009.1
++ Revision: 337170
+- updated version
+
+* Tue Jan 06 2009 Florent Monnier <blue_prawn@mandriva.org> 0.4.2-1mdv2009.1
++ Revision: 326276
+- import ocaml-ssl
+
