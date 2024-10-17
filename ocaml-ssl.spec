@@ -5,7 +5,7 @@ Summary:        SSL bindings for OCaml
 
 Group:          Development/Other
 License:        LGPLv2+ with exceptions
-URL:            http://savonet.sourceforge.net/wiki/Savonet
+URL:            https://savonet.sourceforge.net/wiki/Savonet
 Source:        http://sourceforge.net/projects/savonet/files/ocaml-ssl/%{version}/ocaml-ssl-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
