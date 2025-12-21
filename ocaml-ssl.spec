@@ -9,6 +9,11 @@ URL:            https://savonet.sourceforge.net/wiki/Savonet
 Source:        http://sourceforge.net/projects/savonet/files/ocaml-ssl/%{version}/ocaml-ssl-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  ocaml >= 3.10.1
 BuildRequires:  ocaml-findlib
 BuildRequires:  openssl-devel
